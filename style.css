@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff7cc; /* Dull yellow */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #000; /* Black headings */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #28a745; /* Green hover effect */
+}
+
+/* Main Content */
+main {
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #000; /* Black headings */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Speaker Section */
+article {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+article h3 {
+    margin: 0;
+    color: #000; /* Black headings */
+}
+
+/* Registration Section */
+section#register a {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+section#register a:hover {
+    background: #333; /* Dark green hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #28a745; /* Green links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
